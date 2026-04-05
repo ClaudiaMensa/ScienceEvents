@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excelência em Eventos Científicos | Gestão Profissional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .gradient-bg { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(226, 232, 240, 1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Header/Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fas fa-microscope text-blue-600 text-2xl"></i>
+                    <span class="font-bold text-xl tracking-tight uppercase">ScienceEvents</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#desafio" class="text-slate-600 hover:text-blue-600 px-3 py-2 font-medium">O Desafio</a>
+                        <a href="#checklist" class="text-slate-600 hover:text-blue-600 px-3 py-2 font-medium">A Visita Técnica</a>
+                        <a href="#proposta" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Ver Proposta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-20 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Sua mente focada na Ciência.<br><span class="text-blue-400">A nossa, nos detalhes.</span></h1>
+            <p class="text-xl text-slate-300 mb-10 max-w-3xl mx-auto">
+                Congressos científicos exigem rigor acadêmico e precisão logística. 
+                Mesmo sem fins lucrativos, o risco é real. Transformamos a complexidade em execução impecável.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#proposta" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-8 rounded-xl transition shadow-lg">
+                    Solicitar Proposta Técnica
+                </a>
+                <a href="#checklist" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-4 px-8 rounded-xl transition border border-slate-500">
+                    Ver Checklist de Visita
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Regras Obrigatórias (Floating Banner) -->
+    <div class="max-w-7xl mx-auto px-4 -mt-8">
+        <div class="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-lg shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-4">
+                <div class="bg-amber-100 p-3 rounded-full text-amber-600">
+                    <i class="fas fa-exclamation-triangle text-2xl"></i>
+                </div>
+                <div>
+                    <h4 class="font-bold text-amber-900">Atenção: Regra de Ouro (300+ Pessoas)</h4>
+                    <p class="text-amber-800 text-sm">Para eventos acima de 300 pessoas, a contratação de Bombeiros, UTI Móvel, Segurança e Limpeza é **obrigatória por lei**.</p>
+                </div>
+            </div>
+            <div class="text-amber-900 font-semibold border-amber-200 border px-4 py-2 rounded bg-white">
+                Risco Zero & Compliance
+            </div>
+        </div>
+    </div>
+
+    <!-- O Desafio -->
+    <section id="desafio" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-800">Se 1.000 pessoas pararem ao mesmo tempo...</h2>
+            <p class="text-slate-500 mt-2">O espaço aguenta? A logística flui? A experiência permanece positiva?</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 rounded-2xl">
+                <i class="fas fa-users-rays text-blue-500 text-4xl mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Fluxo de Multidões</h3>
+                <p class="text-slate-600">Gestão estratégica de coffee breaks, banheiros e credenciamento para evitar colapsos e filas gigantes.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <i class="fas fa-bolt text-blue-500 text-4xl mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Infraestrutura Crítica</h3>
+                <p class="text-slate-600">Cálculo de carga de energia, geradores, internet dedicada e acústica real sem vazamentos.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <i class="fas fa-eye text-blue-500 text-4xl mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Visibilidade Total</h3>
+                <p class="text-slate-600">Garantia de que a clareza vença o espetáculo. Se o slide não for lido do fundo, o conhecimento se perde.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checklist Técnico (Interactive-like Grid) -->
+    <section id="checklist" class="bg-slate-100 py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-800">Checklist Rigoroso de Visita Técnica</h2>
+                    <p class="text-slate-500">O que nossos profissionais analisam com trena e olho clínico.</p>
+                </div>
+                <div class="hidden md:block">
+                    <span class="text-sm font-bold text-blue-600 uppercase tracking-widest bg-blue-50 px-4 py-2 rounded-full border border-blue-100 italic">Consideramos sempre o dia CHUVOSO</span>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Categoria 1 -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-slate-400 text-xs uppercase">Plenária & Layout</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-blue-500"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Inclinação da plateia</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-blue-500"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Pé-direito (impacto LED)</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-blue-500"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Colunas e pontos cegos</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-blue-500"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Espaço para Breakouts</li>
+                    </ul>
+                </div>
+                <!-- Categoria 2 -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-slate-400 text-xs uppercase">Técnica & AV</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-purple-500"><i class="fas fa-check-circle text-purple-500 mr-2"></i> Eco e vazamento acústico</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-purple-500"><i class="fas fa-check-circle text-purple-500 mr-2"></i> Blackout (funciona real?)</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-purple-500"><i class="fas fa-check-circle text-purple-500 mr-2"></i> Pontos de energia e carga</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-purple-500"><i class="fas fa-check-circle text-purple-500 mr-2"></i> Internet Banda Dedicada</li>
+                    </ul>
+                </div>
+                <!-- Categoria 3 -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-slate-400 text-xs uppercase">Logística & F&B</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-emerald-500"><i class="fas fa-check-circle text-emerald-500 mr-2"></i> Cozinha de apoio/logística</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-emerald-500"><i class="fas fa-check-circle text-emerald-500 mr-2"></i> Café contínuo / Reposição</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-emerald-500"><i class="fas fa-check-circle text-emerald-500 mr-2"></i> Banheiros suficientes</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-emerald-500"><i class="fas fa-check-circle text-emerald-500 mr-2"></i> Foyer para Networking</li>
+                    </ul>
+                </div>
+                <!-- Categoria 4 -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-slate-400 text-xs uppercase">Palestrantes & VIP</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-rose-500"><i class="fas fa-check-circle text-rose-500 mr-2"></i> Acesso elegante ao palco</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-rose-500"><i class="fas fa-check-circle text-rose-500 mr-2"></i> Camarins próximos ao palco</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-rose-500"><i class="fas fa-check-circle text-rose-500 mr-2"></i> Áreas de holding/preparação</li>
+                        <li class="bg-white p-3 rounded shadow-sm border-l-2 border-rose-500"><i class="fas fa-check-circle text-rose-500 mr-2"></i> Mobiliário de palco ergonômico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposta Técnica / Modelo Híbrido -->
+    <section id="proposta" class="py-20 px-4 max-w-5xl mx-auto">
+        <div class="glass-card rounded-3xl overflow-hidden shadow-2xl border-2 border-blue-100">
+            <div class="bg-blue-600 p-8 text-white">
+                <h2 class="text-3xl font-bold">Proposta Técnica de Gestão Profissional</h2>
+                <p class="text-blue-100 opacity-90 mt-2">Modelo Híbrido: Inteligência Profissional + Paixão Voluntária</p>
+            </div>
+            
+            <div class="p-8">
+                <div class="mb-10">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4 border-b pb-2">1. Escopo Inegociável (Gestão Profissional)</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="flex gap-3">
+                            <i class="fas fa-shield-alt text-blue-600 mt-1"></i>
+                            <p class="text-slate-600 text-sm">**Compliance e Segurança:** Gestão de Alvarás, ARTs, AVCB e contratação de Brigada/Ambulância obrigatórias.</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fas fa-cogs text-blue-600 mt-1"></i>
+                            <p class="text-slate-600 text-sm">**Operação Técnica:** Controle de som, luz, projeção e coordenação de carga/descarga de fornecedores.</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fas fa-clock text-blue-600 mt-1"></i>
+                            <p class="text-slate-600 text-sm">**Cronograma Reverso:** Planejamento minuto-a-minuto do pré ao pós-evento.</p>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fas fa-hard-hat text-blue-600 mt-1"></i>
+                            <p class="text-slate-600 text-sm">**Engenharia de Fluxo:** Dimensionamento de filas, buffet e controle de acesso.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-10 bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <h3 class="text-xl font-bold text-slate-800 mb-4">2. Integração com Trabalho Voluntário</h3>
+                    <p class="text-slate-600 mb-4">Nós valorizamos a equipe do congresso. No modelo híbrido, a divisão de tarefas garante eficiência:</p>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm">
+                            <thead>
+                                <tr class="text-slate-400 border-b">
+                                    <th class="py-2">Área</th>
+                                    <th class="py-2">Liderança (Nossa)</th>
+                                    <th class="py-2">Apoio (Voluntários)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-slate-700">
+                                <tr class="border-b">
+                                    <td class="py-2 font-semibold text-blue-600">Credenciamento</td>
+                                    <td class="py-2">Gestão de Software e Suporte</td>
+                                    <td class="py-2">Entrega de kits e recepção</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2 font-semibold text-blue-600">Salas de Palestra</td>
+                                    <td class="py-2">Coordenação de AV e Tempo</td>
+                                    <td class="py-2">Microfone na plateia e acolhimento</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2 font-semibold text-blue-600">Hospitalidade</td>
+                                    <td class="py-2">Logística de Alimentos e Bebidas</td>
+                                    <td class="py-2">Orientação de fluxo e informações</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <p class="text-slate-500 text-sm mb-6">Investir em gestão profissional não é custo, é a proteção do seu legado científico.</p>
+                    <button onclick="window.print()" class="inline-flex items-center gap-2 bg-slate-800 text-white px-6 py-3 rounded-lg hover:bg-slate-900 transition">
+                        <i class="fas fa-file-pdf"></i> Imprimir/Salvar Proposta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+            <div>
+                <div class="flex items-center gap-2 justify-center md:justify-start text-white mb-2">
+                    <i class="fas fa-microscope text-blue-500"></i>
+                    <span class="font-bold text-xl uppercase tracking-widest">ScienceEvents</span>
+                </div>
+                <p class="text-sm">Especialistas em eventos científicos de grande escala.</p>
+            </div>
+            <div class="text-sm">
+                <p>&copy; 2024 ScienceEvents Gestão. Todos os direitos reservados.</p>
+                <p>Visita Técnica | Proposta de Administração | Consultoria</p>
+            </div>
+            <div class="flex gap-4 text-2xl">
+                <a href="#" class="hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-blue-500"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-blue-500"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
